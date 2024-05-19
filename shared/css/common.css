@@ -1,0 +1,18 @@
+body {
+    font-family: 'Poetsen One', sans-serif;
+}
+
+*::-webkit-scrollbar {
+    width: 10px;
+}
+*::-webkit-scrollbar-track {
+    background: #e0e0e0;
+    border-radius: 10px;
+    box-shadow: inset 5px 5px 10px #bebebe, inset -5px -5px 10px #ffffff;
+}
+*::-webkit-scrollbar-thumb {
+    background: #bebebe;
+    border-radius: 10px;
+    cursor: pointer;
+    /*box-shadow: inset 5px 5px 10px #bebebe, inset -5px -5px 10px #ffffff;*/
+}

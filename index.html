@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHI-FE</title>
+    <link href="shared/css/fonts.css" rel="stylesheet"/>
+    <link href="shared/css/common.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #e0e0e0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            background: #e0e0e0;
+            border-radius: 20px;
+            box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+            padding: 30px;
+            margin-30px;
+            text-align: center;
+        }
+        header {
+            background: #e0e0e0;
+            border-radius: 12px;
+            box-shadow: inset 5px 5px 10px #bebebe, inset -5px -5px 10px #ffffff;
+            padding: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #333;
+            font-weight: 600;
+        }
+        .content {
+            background: #e0e0e0;
+            border-radius: 12px;
+            box-shadow: inset 5px 5px 10px #bebebe, inset -5px -5px 10px #ffffff;
+            padding: 20px;
+        }
+        .content h2 {
+            color: #333;
+            font-weight: 600;
+        }
+        .content ul {
+            list-style: none;
+            padding: 0 15px;
+            max-height: 300px;
+            overflow-y: auto;
+            margin: 0;
+        }
+        .content li {
+            margin: 10px 0;
+        }
+        .content a {
+            display: block;
+            padding: 15px;
+            border-radius: 12px;
+            background: #e0e0e0;
+            box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+            font-weight: 400;
+            transition: all 0.2s ease-in-out;
+        }
+        .content a:hover {
+            box-shadow: inset 5px 5px 10px #bebebe, inset -5px -5px 10px #ffffff;
+        }
+        .content a.disabled {
+            pointer-events: none;
+            color: #aaa;
+            box-shadow: none;
+            background: #d0d0d0;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>CHI Front-End</h1>
+    </header>
+    <div class="content">
+        <h2>Available Homework</h2>
+        <ul>
+            <li><a href="lesson-1/" >Practice work #1</a></li>
+            <li><a href="lesson-2/" class="disabled">Practice work #2</a></li>
+            <li><a href="lesson-3/" class="disabled">Practice work #3</a></li>
+            <li><a href="lesson-4/" class="disabled">Practice work #4</a></li>
+            <li><a href="lesson-5/" class="disabled">Practice work #5</a></li>
+            <li><a href="lesson-6/" class="disabled">Practice work #6</a></li>
+            <li><a href="lesson-7/" class="disabled">Practice work #7</a></li>
+            <li><a href="lesson-8/" class="disabled">Practice work #8</a></li>
+            <li><a href="lesson-9/" class="disabled">Practice work #9</a></li>
+            <li><a href="lesson-10/" class="disabled">Practice work #10</a></li>
+            <li><a href="lesson-11/" class="disabled">Practice work #11</a></li>
+            <li><a href="lesson-12/" class="disabled">Practice work #12</a></li>
+            <li><a href="lesson-13/" class="disabled">Practice work #13</a></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
