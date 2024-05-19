@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home</title>
+    <title>Portfolio</title>
     <link href="../shared/css/reset.css" rel="stylesheet">
     <link href="../shared/css/fonts.css" rel="stylesheet"/>
     <link href="../shared/css/common.css" rel="stylesheet">
@@ -14,6 +14,76 @@
 </head>
 <body>
 
-    <script src="js/script.js"></script>
+<header class="header">
+    <div class="logo">
+        <a href="#"><img src="img/logo.svg" alt="logo"></a>
+    </div>
+    <nav>
+        <ul class="nav">
+            <li><a href="../">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <div class="container id="projects">
+        <header class="container-header">
+            <h1>Projects</h1>
+            <div class="author-decor">Author: Vlad Bogun</div>
+        </header>
+        <div class="card">
+            <div class="card-item">
+                <div class="image-frame">
+                    <img src="img/port1.jpg" alt="Galaxy 1">
+                </div>
+                <p>Poster for Sport Center</p>
+            </div>
+            <div class="card-item">
+                <div class="image-frame">
+                    <img src="img/port2.jpg" alt="Galaxy 1">
+                </div>
+                <p>Design for Journal</p>
+            </div>
+            <div class="card-item">
+                <div class="image-frame">
+                    <img src="img/port3.jpg" alt="Galaxy 1">
+                </div>
+                <p>Design for University</p>
+            </div>
+        </div>
+        <a href="#about" class="button">See more</a>
+    </div>
+
+    <div class="container">
+        <header class="container-header">
+            <h1>About</h1>
+            <div class="author-decor">Author: Vlad Bogun</div>
+        </header>
+        <div class="card" id="about">
+            <ol>
+                <li>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</li>
+                <li>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</li>
+                <li>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.</li>
+                <li>Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.</li>
+            </ol>
+        </div>
+        <a href="#" class="button">Go Top</a>
+    </div>
+</main>
+
+<footer>
+    <div class="footer">
+        <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+        <p>
+            <a href="mailto:support@yourcompany.com">Contact Us</a> |
+            <a href="privacy-policy.html">Privacy Policy</a> |
+            <a href="terms-of-service.html">Terms of Service</a>
+        </p>
+    </div>
+</footer>
+
+<script src="js/script.js"></script>
 </body>
 </html>
