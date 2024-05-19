@@ -51,16 +51,13 @@ Once the server is running, it will automatically open your default web browser 
 ## Directory Structure
 
 - `lesson-1/` - Lecture materials for Lesson 1
-- `lesson-2/` - Lecture materials for Lesson 2
-- `lesson-3/` - Lecture materials for Lesson 3
+- `lesson-*/` - Lecture materials for Lesson *
 - `README.md` - Project README file
 - `shared/` - Shared resources `(hidden)`
 - `python-runner/` - Python runner files `(hidden)`
 - `.idea/` - IDE configuration files `(hidden)`
 - `.git/` - Git repository files `(hidden)`
 - `venv/` - Virtual environment directory `(hidden)`
-
-
 
 ## Troubleshooting
 
