@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Readme</title>
+    <link href="shared/css/fonts.css" rel="stylesheet"/>
+    <link href="shared/css/common.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #e0e0e0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            background: #e0e0e0;
+            border-radius: 20px;
+            box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+            padding: 30px;
+            margin: 30px;
+        }
+        #back-btn {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            padding: 8px 16px;
+            background: #e0e0e0;
+            box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+            border-radius: 12px;
+            color: #333;
+            transition: all 0.2s ease-in-out;
+            border: none;
+            cursor: pointer;
+            outline: none;
+            font-family: 'Poetsen One', sans-serif;
+        }
+
+        #back-btn:hover {
+            box-shadow: inset 5px 5px 10px #bebebe, inset -5px -5px 10px #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <button id="back-btn" onclick="window.location.href='../'">Home</button>
+
+    <div class="container">
+        <zero-md src="README.md"></zero-md>
+    </div>
+
+    <script type="module" src="shared/js/zero-md.min.js"></script>
+
+</body>
+</html>
