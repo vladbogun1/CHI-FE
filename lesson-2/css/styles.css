@@ -86,3 +86,40 @@ body {
 .container button:hover {
     box-shadow: inset 7px 7px 15px #cbced1, inset -7px -7px 15px #ffffff;
 }
+
+/* CALCULATOR 2 */
+
+/* Number pad styles */
+#calculator2 .number-pad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, auto);
+    gap: 10px;
+    text-align: center;
+}
+
+#calculator2 .num-btn, #calculator2 .op-btn, #calculator2 #clear-btn, #calculator2 #backspace-btn {
+    padding: 10px;
+    background: #ecf0f3;
+    border: none;
+    box-shadow: 3px 3px 6px #cbced1, -3px -3px 6px #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    height: 50px;
+}
+
+#calculator2 #equals-btn {
+    grid-row: 2 / 6;
+    grid-column: 4;
+}
+
+#calculator2 .num-btn:hover, #calculator2 .op-btn:hover, #calculator2 #clear-btn:hover, #calculator2 #backspace-btn:hover, #calculator2 #equals-btn:hover {
+    box-shadow: inset 7px 7px 15px #cbced1, inset -7px -7px 15px #ffffff;
+}
+
+#calculator2 .input-field input {
+    width: 100%;
+    text-align: right;
+    margin-bottom: 20px;
+    height: 40px;
+}

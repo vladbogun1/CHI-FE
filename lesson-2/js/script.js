@@ -19,25 +19,28 @@ tab2Button.addEventListener('click', function() {
 });
 
 // Calculator 1
+
+// Elements for Calculator 1
 const calculatorData = {
     number1: null,
     operation: null,
     number2: null
 };
+const number1 = calculator1.querySelector('.number1');
+const operation = calculator1.querySelector('.operation');
+const number2 = calculator1.querySelector('.number2');
+const calculate = calculator1.querySelector('.calculate');
 
-calculator1.querySelector('.number1').addEventListener('blur', (e) => {
+number1.addEventListener('blur', (e) => {
     calculatorData.number1 = parseFloat(e.target.value);
 });
-
-calculator1.querySelector('.operation').addEventListener('change', (e) => {
+operation.addEventListener('change', (e) => {
     calculatorData.operation = e.target.value;
 });
-
-calculator1.querySelector('.number2').addEventListener('blur', (e) => {
+number2.addEventListener('blur', (e) => {
     calculatorData.number2 = parseFloat(e.target.value);
 });
-
-calculator1.querySelector('.calculate').addEventListener('click', () => {
+calculate.addEventListener('click', () => {
     const { number1, operation, number2 } = calculatorData;
 
     if (number1 === null || operation === null || number2 === null || operation === "") {
@@ -66,3 +69,48 @@ calculator1.querySelector('.calculate').addEventListener('click', () => {
 
     alert(`The result is: ${result}`);
 });
+
+// Calculator 2
+
+// Elements for Calculator 2
+const display = calculator2.querySelector('#display');
+const numButtons = calculator2.querySelectorAll('.num-btn:not(.decimal)');
+const opButtons = calculator2.querySelectorAll('.op-btn');
+const equalsButton = calculator2.querySelector('#equals-btn');
+const clearButton = calculator2.querySelector('#clear-btn');
+const decimalButton = calculator2.querySelector('.decimal');
+
+numButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        display.value += button.textContent;
+    });
+});
+
+opButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        display.value += ` ${button.textContent} `;
+    });
+});
+
+decimalButton.addEventListener('click', () => {
+    if (!display.value.endsWith('.') || display.value.endsWith(' ')) {
+        display.value += '.';
+    }
+});
+equalsButton.addEventListener('click', () => {
+    try {
+        display.value = preciseCalculation(display.value);
+    } catch (error) {
+        alert(`Error: ${error.message}`);
+        display.value = '';
+    }
+});
+
+clearButton.addEventListener('click', () => {
+    display.value = '';
+});
+
+function preciseCalculation(expression) {
+    const result = eval(expression);
+    return +result.toFixed(10);
+}
