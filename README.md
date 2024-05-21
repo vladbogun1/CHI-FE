@@ -1,74 +1,49 @@
 
 # CHI-FE Project
 
-This project contains lecture materials that can be accessed via a local web server. This guide will help you set up and run the server to view the lectures in your browser.
+Welcome to the CHI-FE Project! This repository houses a comprehensive suite of educational materials designed to enhance my learning experience through interactive lectures. Each lesson is structured to facilitate easy access and hands-on practice with a local web server.
+
+## Live Access
+You can directly access the project at: [CHI-FE Live](https://vladbogun1.github.io/CHI-FE/)
 
 ## Prerequisites
-
-- Python 3.x installed on your machine
+- Python 3.x
 
 ## Installation
-
-1. Clone this repository or download the project files.
-2. Navigate to the project directory.
-
+Clone the repository and navigate to the directory:
 ```bash
 git clone https://github.com/vladbogun1/CHI-FE
 cd CHI-FE
 ```
 
-3. Ensure you have a virtual environment set up (optional but recommended).
-
+(Optional) Set up a virtual environment:
 ```bash
 python -m venv venv
 source venv/bin/activate    # On Windows, use `venv\Scripts\activate`
 ```
 
-4. Install the required dependencies.
-
-Run a `requirements.txt` file:
-
-
+Install the necessary dependencies:
 ```bash
 pip install -r python-runner/requirements.txt
 ```
 
 ## Running the Server
-
-1. Open a terminal and navigate to the directory containing `start.py`.
-2. Run the `start.py` file.
-
+Just execute `start.py`:
 ```bash
 python python-runner/start.py
 ```
+This command launches a local web server on port 8000 and opens your default web browser to `http://localhost:8000`, where you can explore the lessons.
 
-This will start a local web server on port 8000.
-
-## Accessing the Lectures
-
-Once the server is running, it will automatically open your default web browser and navigate to `http://localhost:8000`. You will see a list of directories containing the lecture materials.
-
-## Directory Structure
-
-- `lesson-1/` - Lecture materials for Lesson 1
-- `lesson-*/` - Lecture materials for Lesson *
-- `README.md` - Project README file
-- `shared/` - Shared resources `(hidden)`
-- `python-runner/` - Python runner files `(hidden)`
-- `.idea/` - IDE configuration files `(hidden)`
-- `.git/` - Git repository files `(hidden)`
-- `venv/` - Virtual environment directory `(hidden)`
+## Lessons Overview
+- `lesson-1/` to `lesson-3/`: Pure HTML/CSS/JS examples for each lesson.
+- `lesson-4/` to `lesson-5/`: Stand-alone projects using React and other frameworks.
 
 ## Troubleshooting
+- Ensure Python 3.x is installed.
+- Check for port 8000 availability.
+- If issues persist, refer to terminal errors or contact support.
 
-- Ensure that you have Python 3.x installed.
-- Verify that no other processes are using port 8000.
-- If the server doesn't start or the browser doesn't open, check the terminal for error messages and ensure you have the necessary permissions.
+## Support
+For questions or support, reach out to **Vlad Bogun** at `vladbogun@gmail.com`.
 
-## Contact
-
-For further assistance, please contact **_Vlad Bogun_** at `vladbogun@gmail.com`.
-
----
-
-Enjoy your lectures!
+Enjoy your learning journey!
