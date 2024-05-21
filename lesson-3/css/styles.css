@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #ecf0f3;
+}
+
+#back-btn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 8px 16px;
+    background: #ecf0f3;
+    box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+    border-radius: 12px;
+    color: #333;
+    transition: all 0.2s ease-in-out;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-family: 'Poetsen One', sans-serif;
+}
+
+#back-btn:hover {
+    box-shadow: inset 5px 5px 10px #bebebe, inset -5px -5px 10px #ffffff;
+}
+
+
+/* CONTENT */
+
+
+.container {
+    background: #ecf0f3;
+    border-radius: 10px;
+    box-shadow: 7px 7px 15px #cbced1, -7px -7px 15px #ffffff;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* CALCULATOR 1*/
+
+.container input, .container select, .container button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: inset 7px 7px 15px #cbced1, inset -7px -7px 15px #ffffff;
+    outline: none;
+}
+
+.container button {
+    background: #ecf0f3;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+    box-shadow: 3px 3px 6px #cbced1, -3px -3px 6px #ffffff;
+}
+
+.container button:hover {
+    box-shadow: inset 7px 7px 15px #cbced1, inset -7px -7px 15px #ffffff;
+}
+
+#debugDiv {
+    position: fixed;
+    top: 10px;
+    right: 50%;
+    transform: translateX(50%);
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: none;
+    transition: opacity 1s ease-in-out;
+}
+
+#debugDiv.fade-out {
+    animation: fadeOut 1s forwards;
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}

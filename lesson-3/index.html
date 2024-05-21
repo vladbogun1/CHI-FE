@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home</title>
+    <title>Calculator</title>
     <link href="../shared/css/reset.css" rel="stylesheet">
     <link href="../shared/css/fonts.css" rel="stylesheet"/>
     <link href="../shared/css/common.css" rel="stylesheet">
@@ -13,7 +13,26 @@
     <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
-
-    <script src="js/script.js"></script>
+    <button id="back-btn" onclick="window.location.href='../'">Home</button>
+    <div id="debugDiv"></div>
+    <div class="tab-content">
+        <div class="calculator container" id="calculator1">
+            <input type="number" class="number1" placeholder="Enter first number">
+            <select class="operation">
+                <option value="">Select operation</option>
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+            <label>
+                <input type="number" class="number2" placeholder="Enter second number">
+            </label>
+            <button class="calculate">Calculate</button>
+            <button class="save-cache">Save to Cache</button>
+            <button class="show-cache">Show Cache</button>
+        </div>
+    </div>
+    <script defer src="js/script.js"></script>
 </body>
 </html>
