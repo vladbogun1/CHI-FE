@@ -14,6 +14,35 @@
 </head>
 <body>
 
-    <script src="js/script.js"></script>
+
+
+
+    <button id="back-btn" onclick="window.location.href='../'">Back</button>
+    <div class="tab-content">
+
+        <div class="tab-buttons">
+            <button id="tab1-btn" class="active">Calculator 1</button>
+            <button id="tab2-btn">Calculator 2</button>
+        </div>
+
+        <div class="calculator container" id="calculator1">
+            <input type="number" class="number1" placeholder="Enter first number">
+            <select class="operation">
+                <option value="">Select operation</option>
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+            <input type="number" class="number2" placeholder="Enter second number">
+            <button class="calculate">Calculate</button>
+        </div>
+
+        <div class="calculator container" id="calculator2" style="display: none;">
+            <input type="number" id="number12" placeholder="Enter first number">
+        </div>
+    </div>
+
+    <script defer src="js/script.js"></script>
 </body>
 </html>
