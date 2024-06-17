@@ -21,19 +21,25 @@
                 <li><a href="lesson-1/" >Practice work #1</a></li>
                 <li><a href="lesson-2/" >Practice work #2</a></li>
                 <li><a href="lesson-3/" >Practice work #3</a></li>
-                <li><a href="lesson-4/" class="disabled">Practice work #4</a></li>
-                <li><a href="lesson-5/" class="disabled">Practice work #5</a></li>
-                <li><a href="lesson-6/" class="disabled">Practice work #6</a></li>
-                <li><a href="lesson-7/" class="disabled">Practice work #7</a></li>
-                <li><a href="lesson-8/" class="disabled">Practice work #8</a></li>
-                <li><a href="lesson-9/" class="disabled">Practice work #9</a></li>
-                <li><a href="lesson-10/" class="disabled">Practice work #10</a></li>
-                <li><a href="lesson-11/" class="disabled">Practice work #11</a></li>
-                <li><a href="lesson-12/" class="disabled">Practice work #12</a></li>
-                <li><a href="lesson-13/" class="disabled">Practice work #13</a></li>
+                <li><a href="#" onclick="redirectToPort(8004, '/')" class="disabled">Practice work #4</a></li>
+                <li><a href="#" onclick="redirectToPort(8005, '/')" class="disabled">Practice work #5</a></li>
+                <li><a href="#" onclick="redirectToPort(8006, '/')" class="disabled">Practice work #6</a></li>
+                <li><a href="#" onclick="redirectToPort(8007, '/')" class="disabled">Practice work #7</a></li>
+                <li><a href="#" onclick="redirectToPort(8008, '/')" class="disabled">Practice work #8</a></li>
+                <li><a href="#" onclick="redirectToPort(8009, '/')" class="disabled">Practice work #9</a></li>
+                <li><a href="#" onclick="redirectToPort(8010, '/')" class="disabled">Practice work #10</a></li>
+                <li><a href="#" onclick="redirectToPort(8011, '/')" class="disabled">Practice work #11</a></li>
+                <li><a href="#" onclick="redirectToPort(8012, '/')" >Practice work #12</a></li>
+                <li><a href="#" onclick="redirectToPort(8013, '/')" class="disabled">Practice work #13</a></li>
             </ul>
         </div>
     </div>
+
+    <script>
+        function redirectToPort(port) {
+            window.location.href = `${window.location.protocol}//${window.location.hostname}:${port}/`;
+        }
+    </script>
 
 </body>
 </html>
