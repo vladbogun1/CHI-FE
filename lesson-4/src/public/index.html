@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node.js Script Output</title>
+    <link href="/shared/css/fonts.css" rel="stylesheet"/>
+    <link href="/shared/css/common.css" rel="stylesheet">
+    <link href="/css/index.css" rel="stylesheet">
+</head>
+<body>
+<button id="back-btn" onclick="redirectToPort(8000, '/')">Home</button>
+
+    <div class="container">
+        <header>
+            <h1>Робота з Typescript: Enums і Union</h1>
+        </header>
+        <div class="content">
+            <button id="run-script">Run Script</button>
+            <div id="output"></div>
+        </div>
+    </div>
+
+    <script>
+        function redirectToPort(port) {
+            window.location.href = `${window.location.protocol}//${window.location.hostname}:${port}/`;
+        }
+        document.getElementById('run-script').addEventListener('click', () => {
+            fetch('/run-script')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('output').innerHTML = data;
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+        });
+    </script>
+</body>
+</html>
