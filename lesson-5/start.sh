@@ -1,0 +1,1 @@
+cd lesson-5 && npm install && npm run dev -- --port=8005
