@@ -1,0 +1,371 @@
+[
+  {
+    "id": 1,
+    "name": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "rating": 4.5,
+    "genre": "Fiction",
+    "description": "A novel set in the Jazz Age that tells the story of the mysterious Jay Gatsby and his unrequited love for Daisy Buchanan.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 2,
+    "name": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "rating": 4.8,
+    "genre": "Fiction",
+    "description": "A story of racial injustice and childhood innocence, centered around a young girl named Scout Finch.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 3,
+    "name": "1984",
+    "author": "George Orwell",
+    "rating": 4.7,
+    "genre": "Dystopian",
+    "description": "A dystopian novel set in a totalitarian society ruled by Big Brother, where individualism and independent thought are persecuted.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 4,
+    "name": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "rating": 4.6,
+    "genre": "Romance",
+    "description": "A classic novel that explores the manners and matrimonial machinations among the British gentry of the early 19th century.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 5,
+    "name": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "rating": 4.0,
+    "genre": "Fiction",
+    "description": "The story of Holden Caulfield, a teenager who leaves his prep school in Pennsylvania and goes underground in New York City for three days.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 6,
+    "name": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "rating": 4.8,
+    "genre": "Fantasy",
+    "description": "A prelude to the Lord of the Rings series, following the adventures of Bilbo Baggins as he helps dwarves reclaim their homeland from a dragon.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 7,
+    "name": "Moby-Dick",
+    "author": "Herman Melville",
+    "rating": 4.1,
+    "genre": "Adventure",
+    "description": "The saga of Captain Ahab and his relentless pursuit of Moby Dick, the great white whale.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 8,
+    "name": "War and Peace",
+    "author": "Leo Tolstoy",
+    "rating": 4.9,
+    "genre": "Historical Fiction",
+    "description": "A sweeping narrative that intertwines the lives of several families against the backdrop of the Napoleonic Wars.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 9,
+    "name": "The Odyssey",
+    "author": "Homer",
+    "rating": 4.3,
+    "genre": "Epic",
+    "description": "The epic journey of Odysseus as he attempts to return home from the Trojan War, facing numerous trials and tribulations along the way.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 10,
+    "name": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "rating": 4.5,
+    "genre": "Gothic Fiction",
+    "description": "A coming-of-age story that follows the experiences of Jane Eyre as she becomes governess at Thornfield Hall and falls in love with Mr. Rochester.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 11,
+    "name": "Brave New World",
+    "author": "Aldous Huxley",
+    "rating": 4.4,
+    "genre": "Dystopian",
+    "description": "A dystopian novel set in a futuristic society characterized by technological advancements and an absence of individuality.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 12,
+    "name": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "rating": 4.2,
+    "genre": "Gothic Fiction",
+    "description": "A tale of passion and revenge on the Yorkshire moors, focusing on the doomed relationship between Heathcliff and Catherine Earnshaw.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 13,
+    "name": "The Divine Comedy",
+    "author": "Dante Alighieri",
+    "rating": 4.7,
+    "genre": "Epic",
+    "description": "An epic poem that describes Dante's journey through Hell, Purgatory, and Paradise, guided by the Roman poet Virgil.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 14,
+    "name": "The Brothers Karamazov",
+    "author": "Fyodor Dostoevsky",
+    "rating": 4.6,
+    "genre": "Philosophical Fiction",
+    "description": "A philosophical novel that explores themes of faith, doubt, and reason through the lives of the Karamazov brothers.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 15,
+    "name": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "rating": 4.8,
+    "genre": "Psychological Fiction",
+    "description": "A psychological drama that follows the moral dilemmas of Raskolnikov, a former student who plans and executes a murder.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 16,
+    "name": "Great Expectations",
+    "author": "Charles Dickens",
+    "rating": 4.4,
+    "genre": "Fiction",
+    "description": "The story of Pip, a young orphan who comes into a mysterious fortune and navigates the challenges of wealth and society.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 17,
+    "name": "The Grapes of Wrath",
+    "author": "John Steinbeck",
+    "rating": 4.5,
+    "genre": "Historical Fiction",
+    "description": "The plight of the Joad family as they migrate westward during the Dust Bowl, seeking a better life in California.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 18,
+    "name": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "rating": 4.9,
+    "genre": "Fantasy",
+    "description": "An epic fantasy trilogy that follows the journey of Frodo Baggins and the Fellowship as they attempt to destroy the One Ring.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 19,
+    "name": "Ulysses",
+    "author": "James Joyce",
+    "rating": 4.1,
+    "genre": "Modernist",
+    "description": "A modernist novel that parallels the events of Homer's Odyssey in the lives of the characters in Dublin over a single day.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 20,
+    "name": "Anna Karenina",
+    "author": "Leo Tolstoy",
+    "rating": 4.7,
+    "genre": "Fiction",
+    "description": "A tragic story of love, infidelity, and societal pressures, centered around the passionate affair between Anna Karenina and Count Vronsky.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 21,
+    "name": "Frankenstein",
+    "author": "Mary Shelley",
+    "rating": 4.4,
+    "genre": "Gothic Fiction",
+    "description": "The story of Victor Frankenstein, a scientist who creates a sapient creature in an unorthodox scientific experiment.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 22,
+    "name": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "rating": 4.3,
+    "genre": "Philosophical Fiction",
+    "description": "A novel that explores themes of aestheticism, moral duplicity, and the nature of beauty through the life of Dorian Gray.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 23,
+    "name": "Dracula",
+    "author": "Bram Stoker",
+    "rating": 4.2,
+    "genre": "Gothic Fiction",
+    "description": "A Gothic horror novel that introduces the character of Count Dracula and chronicles his attempt to move from Transylvania to England.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 24,
+    "name": "The Stranger",
+    "author": "Albert Camus",
+    "rating": 4.1,
+    "genre": "Philosophical Fiction",
+    "description": "A novel that explores the themes of existentialism and absurdism through the life of its protagonist, Meursault.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 25,
+    "name": "The Alchemist",
+    "author": "Paulo Coelho",
+    "rating": 4.6,
+    "genre": "Fiction",
+    "description": "A philosophical book that follows a young shepherd named Santiago in his journey to the pyramids of Egypt, after having a recurring dream of finding a treasure there.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 26,
+    "name": "Don Quixote",
+    "author": "Miguel de Cervantes",
+    "rating": 4.7,
+    "genre": "Adventure",
+    "description": "The story of a nobleman who reads so many chivalric romances that he decides to become a knight-errant and set off on a series of adventures.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 27,
+    "name": "Beloved",
+    "author": "Toni Morrison",
+    "rating": 4.5,
+    "genre": "Historical Fiction",
+    "description": "A story set after the American Civil War, revolving around the haunting legacy of slavery as experienced by Sethe and her family.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 28,
+    "name": "The Sun Also Rises",
+    "author": "Ernest Hemingway",
+    "rating": 4.3,
+    "genre": "Fiction",
+    "description": "A novel about a group of expatriates in Europe during the 1920s, exploring themes of love, loss, and the meaning of life.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 29,
+    "name": "A Tale of Two Cities",
+    "author": "Charles Dickens",
+    "rating": 4.4,
+    "genre": "Historical Fiction",
+    "description": "A novel set in London and Paris before and during the French Revolution, depicting the plight of the French peasantry and the brutality of the aristocracy.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 30,
+    "name": "Les Misérables",
+    "author": "Victor Hugo",
+    "rating": 4.9,
+    "genre": "Historical Fiction",
+    "description": "A sweeping narrative that explores the lives of several characters, including the ex-convict Jean Valjean, in post-revolutionary France.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 31,
+    "name": "Catch-22",
+    "author": "Joseph Heller",
+    "rating": 4.2,
+    "genre": "Satire",
+    "description": "A satirical novel set during World War II, focusing on the absurdity of war and the bureaucratic constraints on soldiers.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 32,
+    "name": "The Call of the Wild",
+    "author": "Jack London",
+    "rating": 4.5,
+    "genre": "Adventure",
+    "description": "A novel that tells the story of a domesticated dog named Buck who reverts to a wild state in the wilderness of Alaska.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 33,
+    "name": "Invisible Man",
+    "author": "Ralph Ellison",
+    "rating": 4.6,
+    "genre": "Fiction",
+    "description": "A novel that addresses many of the social and intellectual issues faced by African Americans in the early twentieth century.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 34,
+    "name": "The Road",
+    "author": "Cormac McCarthy",
+    "rating": 4.4,
+    "genre": "Post-apocalyptic Fiction",
+    "description": "A bleak story of a father and son's journey across a post-apocalyptic landscape.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 35,
+    "name": "Heart of Darkness",
+    "author": "Joseph Conrad",
+    "rating": 4.2,
+    "genre": "Fiction",
+    "description": "A novella that explores the depths of human corruption and the darkness within the human soul.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 36,
+    "name": "Gulliver's Travels",
+    "author": "Jonathan Swift",
+    "rating": 4.1,
+    "genre": "Satire",
+    "description": "A satirical narrative that follows Lemuel Gulliver's travels to various fantastical lands.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 37,
+    "name": "Madame Bovary",
+    "author": "Gustave Flaubert",
+    "rating": 4.5,
+    "genre": "Fiction",
+    "description": "A story about the life of an unfulfilled provincial housewife who attempts to escape her banal existence through love affairs and material excess.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 38,
+    "name": "The Count of Monte Cristo",
+    "author": "Alexandre Dumas",
+    "rating": 4.8,
+    "genre": "Adventure",
+    "description": "A tale of an innocent man wrongfully imprisoned who escapes to enact a carefully planned revenge.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 39,
+    "name": "Lolita",
+    "author": "Vladimir Nabokov",
+    "rating": 4.1,
+    "genre": "Fiction",
+    "description": "A controversial novel that explores complex themes of obsession, manipulation, and the nature of love.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 40,
+    "name": "The Metamorphosis",
+    "author": "Franz Kafka",
+    "rating": 4.4,
+    "genre": "Existential Fiction",
+    "description": "A novella that tells the story of Gregor Samsa, a man who wakes up one morning to find himself transformed into a gigantic insect.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 41,
+    "name": "A Clockwork Orange",
+    "author": "Anthony Burgess",
+    "rating": 4.3,
+    "genre": "Dystopian",
+    "description": "A dystopian novel set in a near-future society that explores themes of free will, violence, and the impact of state control.",
+    "image": "https://via.placeholder.com/150"
+  }
+]
